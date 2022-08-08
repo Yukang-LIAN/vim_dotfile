@@ -132,4 +132,6 @@ nnoremap <leader>ny :action CopyElement<CR>
 " 代码环绕(快速添加if 或者while)
 nnoremap <leader>ns :action SurroundWith<CR>
 vnoremap <leader>ns :action SurroundWith<CR>
-
+" 代码提示上下
+inoremap <leader>j <down>
+inoremap <leader>k <up>
